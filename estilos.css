@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root{
+    --main-color: #0F1036;
+    --black: hsl(240, 16%, 9%);
+    --bg: #FFEDDF;
+    --border: .1rem solid rgba(255,255,255,.3);
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image:url(../Imagenes/dienteleon.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.header .navbar {
+    margin: 0 1rem;
+    margin-top: 70px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.header .navbar a:hover{
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+
+.logo {
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.header-content{
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 55px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p{
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 100px;
+    text-transform: initial;
+    margin-bottom: 25px;
+}
+
+.Acerca {
+    padding: 40px 0;
+    position: relative;
+}
+
+.Acerca-content {
+    text-align: center;
+}
+
+.Acerca-content h2 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    text-align: justify;
+    font-size: 20px;
+    color: #414247;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    text-transform: initial;
+}
+
+.Mihistoria {
+    background-image:url(../Imagenes/hoja.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.Mihistoria-content {
+    text-align: center;
+}
+
+.Mihistoria-content h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 70px;
+    color: #977050;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.Mihistoria-content P{
+    font-size: 18px;
+    color: var(--black);
+    padding: 0 20px;
+    margin-bottom: 5px;
+    text-transform: initial;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #1D85C0;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 90px 80px 100px 80px;
+}
+
+.general-1 p {
+    text-transform: initial;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.general-2 {
+    background-image: url(../Imagenes/familia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-4 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #C46C1E;
+}
+
+.general-4 {
+    width: 50%;
+    padding: 80px 60px 100px 60px;
+}
+
+.general-4 p {
+    text-transform: initial;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.general-3 {
+    background-image: url(../Imagenes/kuki.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+}
+
+.general-31 {
+    background-image: url(../Imagenes/dona.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+}
+
+.general-5 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #248462;
+}
+
+.general-5 {
+    width: 50%;
+    padding: 60px 90px 100px 60px;
+}
+
+.general-5 p {
+    text-transform: initial;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.general-6 {
+    background-image: url(../Imagenes/facultad.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.Misgustos {
+    background-image:url(../Imagenes/rayas.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.Misgustos-content {
+    text-align: center;
+}
+
+.Misgustos-content h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 70px;
+    color: #FFEDDF;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.Misgustos-content P{
+    font-size: 18px;
+    color: #fff;
+    padding: 0 20px;
+    margin-bottom: 5px;
+    text-transform: initial;
+}
+
+.general2 {
+    display: flex;
+}
+
+.general2-1 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #414247;
+}
+
+.general2-1 {
+    width: 50%;
+    padding: 90px 80px 100px 80px;
+}
+
+.general2-1 p {
+    text-transform: initial;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.general2-2 {
+    background-image: url(../Imagenes/foto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general2-4 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #30E1D4;
+}
+
+.general2-4 {
+    width: 50%;
+    padding: 80px 60px 100px 60px;
+}
+
+.general2-4 p {
+    text-transform: initial;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.general2-3 {
+    background-image: url(../Imagenes/Caroagua.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general2-5 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #FF67A7;
+}
+
+.general2-5 {
+    width: 50%;
+    padding: 60px 90px 60px 60px;
+}
+
+.general2-5 p {
+    text-transform: initial;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.general2-6 {
+    background-image: url(../Imagenes/humbe.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.contacto {
+    padding: 80px 0;
+    text-align: center
+}
+
+.contacto h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #1F7D4F;
+}
+
+.contacto p {
+    text-transform: initial;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contacto h3 {
+    text-transform: lowercase;
+}
+
+.footer {
+    text-align: center;
+    background-color: #0F1036;
+}
